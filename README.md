@@ -28,27 +28,6 @@ Descriptive: Commits have associated messages. The message of each commit must d
 Convention Guide
 Code: https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_styleguide.html Folders: https://docs.godotengine.org/en/stable/tutorials/best_practices/project_organization.html
 
-Project structure convention:
-BEEF://
-├── assets
-│ ├── character
-│ │ ├── character_sheet.png
-│ ├── enemy
-│ │ ├── enemy_sheet.png
-├── scenes
-│ ├── character
-│ │ ├── character.tscn
-│ │ ├── character.gd
-│ ├── enemy
-│ │ ├── enemy.tscn
-│ │ ├── enemy.gd
-│ ├── level_1
-│ │ ├── level_1.tscn
-│ │ ├── level_1.gd
-│ │ ├── ui_level_1
-│ │ │ ├── ui_level_1.tscn
-│ │ │ ├── ui_level_1.gd
-
 Naming convention
 
 Folders and files: snake_case - lowercase and underscore. ex: red_enemy
